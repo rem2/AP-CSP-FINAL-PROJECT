@@ -130,7 +130,7 @@ namespace apcsp
 }
 
 //WINAPI DOCUMENTATION///////////////////////////////////////////////////////////////////////////////////////////////////////
-// ReadProcessMemory: https://msdn.microsoft.com/en-us/library/windows/desktop/ms680553(v=vs.85).aspx   //
+// ReadProcessMemory: https://msdn.microsoft.com/en-us/library/windows/desktop/ms680553(v=vs.85).aspx                      //
 // OpenProcess: https://msdn.microsoft.com/en-us/library/windows/desktop/ms684320(v=vs.85).aspx                            //
 // GetAsyncKeyState: https://msdn.microsoft.com/en-us/library/windows/desktop/ms646293(v=vs.85).aspx                       //
 // mouse_event: https://msdn.microsoft.com/en-us/library/windows/desktop/ms646260(v=vs.85).aspx                            //
