@@ -1,4 +1,4 @@
-# AP-CSP-FINAL-PROJECT
+# External Memory Reader and Input Simulator (Triggerbot)
 
 This program enhances the user's reaction time by opening a handle and then reading Counter-Strike: Global Offensive's memory. It then finds the value of the crosshair. When the value of the crosshair becomes greater than 0 and less than 64, the program simulates a mouse click using mouse_event, which makes the gun shoot at an enemy player in the game.  
 
