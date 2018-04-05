@@ -2,7 +2,10 @@ using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
-
+/*
+    @author Robby March
+    @date May 2017
+*/
 
 namespace apcsp
 {
@@ -84,7 +87,6 @@ namespace apcsp
                     if ((module.FileName).IndexOf("client.dll") != -1 && (module.FileName).IndexOf("steamclient.dll") == -1) //checks to make sure that we dont accidentally get the steamclient module address
                     {
                         client = module.BaseAddress; //get the address of the client.dll
-                        module.Dispose(); //clean up
                     }
                 }
             }
